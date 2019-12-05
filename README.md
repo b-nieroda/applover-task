@@ -6,4 +6,5 @@ Uwagi:
 - animacje: przejście loga pomiędzy aktywnościami oraz fade out progress bara i fade in napisu "success";
 - obsługa błędów z api: 401 - "Invalid email address or password"; 500 oraz reszta - "Something went wrong";
 - nie zostało dodane i przetestowane accessibility;
-- brak testów.
+- brak testów;
+- brak dodanego czyszczenia pola z hasłem, po powrocie z ekranu pomyślnego zalogowania.
