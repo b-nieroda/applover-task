@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorAccent">#1DE278</color>
+    <color name="colorText">@android:color/white</color>
+    <color name="colorBackground">#534C5F</color>
+    <color name="colorLoginInputTogglePassword">@android:color/white</color>
+    <color name="black_overlay">#11000000</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/colorText</color>
+</resources>

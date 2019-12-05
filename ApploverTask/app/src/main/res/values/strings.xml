@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Applover task</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="login">Login</string>
+    <string name="prompt_email">Email address</string>
+    <string name="prompt_password">Password</string>
+    <string name="success">Success!</string>
+
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="prompt_tap_twice_to_exit">Please click back again to exit</string>
+    <string name="error_unauthorized">Invalid email address or password</string>
+    <string name="error_unexpected">Something went wrong</string>
+
+</resources>

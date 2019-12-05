@@ -1,0 +1,45 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="MainTheme" parent="AppTheme">
+        <item name="android:colorBackground">@color/colorBackground</item>
+    </style>
+
+    <style name="ErrorTextAppearance" parent="TextAppearance.Design.Error">
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="TextLarge" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextXLarge" parent="TextLarge">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="Button" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:padding">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="cornerRadius">6dp</item>
+        <item name="rippleColor">@color/black_overlay</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="passwordToggleTint">@color/colorLoginInputTogglePassword</item>
+        <item name="android:colorPrimary">@color/colorText</item>
+        <item name="errorTextAppearance">@style/ErrorTextAppearance</item>
+        <item name="android:textColorHint">@color/colorText</item>
+        <item name="boxCornerRadiusTopStart">6dp</item>
+        <item name="boxCornerRadiusTopEnd">6dp</item>
+        <item name="boxCornerRadiusBottomEnd">6dp</item>
+        <item name="boxCornerRadiusBottomStart">6dp</item>
+
+    </style>
+
+</resources>
